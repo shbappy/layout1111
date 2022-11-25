@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.header{
+    width: 100%;
+    padding: 15px 0px;
+    background: rgb(251, 235, 235);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 140px;
+}
+.menu ul{
+    display: block;
+    margin: 35px 0px 0px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display:block;
+    margin:0px 0px 0px 25px;
+    font: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #1c267b;
+    text-decoration:capitalize;
+    
+}
+.menu ul li a:hover{
+    color: #0583b1;
+}
+.menu-button .btn-primary{
+    display:inline-block;
+    padding: 12px 28px;
+    background: #1c266d;
+    margin: 20px 0px 0px 5px;
+    color: #fff;
+    border: 1px solid #1e266d;
+    font-size:16px;
+    line-height: 26px;
+}
+.menu-button .btn-primary:hover{
+    background: #00aeef;
+    color:#fff;
+    border:1px solid #0583b1;
+}
+.banner{
+    width: 100%;
+    padding: 60px 0px;
+}
+.inner-banner{
+    display: flex;
+    align-items: center;
+}
+.intro{
+    flex-basis: 50%;
+
+}
+.intro h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #1e266d;
+    margin: 0px 0px 13px;
+}
+.intro p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #1e266d;
+    margin: 0px 0px 13px;
+}
+.intro .btn-primary{
+    display:inline-block;
+    padding: 12px 28px;
+    background: #1c266d;
+    margin: 15px 0px 0px 5px;
+    color: #fff;
+    border: 1px solid #1e266d;
+    font-size:16px;
+    line-height: 26px;
+    border-radius: 7px;
+}
+.intro .btn-primary:hover{
+    background: #00aeef;
+    color:#fff;
+    border:1px solid #0583b1;
+}
+.banner-image{
+    flex-basis: 50%;
+}
+.feature{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.inner-feature{
+    display: flex;
+}
+.feature-box{
+    display: flex;
+    background: #1c266d;
+    padding: 30px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+.icon{
+    flex-basis: 20%;
+}
+.icon .fa{
+    font-size: 35px;
+    color: #fff;
+}
+.content{
+    flex-basis: 80%;
+}
+.content h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0px 0px 15px;
+    color: rgb(247, 226, 226);
+    text-transform: capitalize;
+}
+.content P{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 0px 15px;
+    color: rgb(238, 225, 225);
+    text-transform: capitalize;
+}
+.bg-1{
+    background-color: #28327c;
+}
+.bg-2{
+    background-color: #64148f;
+}
+.bg-3{
+    background-color: #940a33;
+}
+.project{
+    width: 100%;
+    padding: 60px 0px;
+}
+.inner-project{
+    display: flex;
+}
+.project-text{
+    flex-basis: 36%;
+    display: block;
+    line-height: 24px;
+}
+.project-text h3{
+    color:#0c1768
+    font-size:25px;
+    font-weight:300;
+    line-height:35px;
+}
+.project-text h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    margin: 0px 0px 15px;
+    color:#0c1768;
+    text-transform: capitalize;
+}
+.project-text p{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 0px 15px;
+    color: rgb(26, 21, 21);
+    text-transform: capitalize;
+}
+.project-text .btn-primary{
+display:inline-block;
+padding: 12px 28px;
+background: #1c266d;
+margin: 15px 0px 0px 5px;
+color: #fff;
+border: 1px solid #1e266d;
+font-size:16px;
+line-height: 26px;
+border-radius: 7px;
+}
+.project-text .btn-primary:hover{
+    background: #00aeef;
+    color:#fff;
+    border:1px solid #0583b1;
+}
+.project-image{
+    flex-basis:56%;
+}
+.support{
+    width: 100%;
+    padding: 30px 20px;
+    display:flex;
+}
+.support .support-image{
+    flex-basis: 80%;
+}
+.support-text{
+ flex-basis: 45%;
+ display: block;
+ line-height: 26px;
+}
+.support-text h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: #1c266d;
+    line-height: 34px;  
+}
+.support-text h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 45px;
+    margin: 0px 0px 15px;
+    color:#0c1768;
+    text-transform: capitalize; 
+}
+.support-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 0px 15px;
+    color: rgb(26, 21, 21);
+    text-transform: capitalize;
+}
+.support-text .btn-primary{
+    display:inline-block;
+    padding: 12px 28px;
+    background: #1c266d;
+    margin: 15px 0px 0px 5px;
+    color: #fff;
+    border: 1px solid #1e266d;
+    font-size:16px;
+    line-height: 26px;
+    border-radius: 7px;
+}
+.support-text .btn-primary:hover{
+    background: #00aeef;
+    color:#fff;
+    border:1px solid #0583b1;
+}
+.learn-earn{
+    width: 100%;
+    padding: 30px 20px;
+    display:flex;
+}
+.learn-text{
+    flex-basis: 53%;
+    display: block;
+    line-height: 24px;
+}
+.learn-text h3{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 45px;
+    color: #1e266d;
+}
+
+.learn-text h1{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 0px 0px 15px;
+    color:#0c1768;
+    text-transform: capitalize; 
+}
+.learn-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 0px 15px;
+    color: rgb(26, 21, 21);
+    text-transform: capitalize;
+}
+.learn-text .btn-primary{
+    display:inline-block;
+    padding: 12px 28px;
+    background: #1c266d;
+    margin: 15px 0px 0px 5px;
+    color: #fff;
+    border: 1px solid #1e266d;
+    font-size:16px;
+    line-height: 26px;
+    border-radius: 7px;
+}
+.learn-text .btn-primary:hover{
+    background: #00aeef;
+    color:#fff;
+    border:1px solid #0583b1;
+}
+.privilege{
+    width: 100%;
+    display: flex;
+    padding: 20px;20px;
+}
+.privilege-image{
+    flex-basis: 185%;
+}
+.privilege-text h4{
+    display: block;
+    font-size: 30px;
+    font-weight: 70;
+    color:#46474f;
+    line-height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
